@@ -1,0 +1,13 @@
+[
+  {
+    "id": "issue-1",
+    "identifier": "DEMO-1",
+    "title": "Bootstrap local Symphony run",
+    "description": "Validate local orchestration loop using memory tracker.",
+    "priority": 2,
+    "state": "Todo",
+    "labels": ["demo", "orchestration"],
+    "blocked_by": []
+  }
+]
+

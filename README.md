@@ -34,6 +34,11 @@ help with the setup:
 > Set up Symphony for my repository based on
 > https://github.com/openai/symphony/blob/main/elixir/README.md
 
+### Option 3. Use the Python implementation in this repository
+
+Check out [python/README.md](python/README.md) for setup and run instructions (Linear, Jira, and
+memory/offline tracker modes).
+
 ---
 
 ## License

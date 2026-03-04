@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symphony-service"
+version = "0.1.0"
+description = "Symphony issue orchestration service (Python implementation)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "Jinja2>=3.1.4",
+  "PyYAML>=6.0.1",
+  "requests>=2.32.3",
+]
+
+[project.scripts]
+symphony = "symphony_service.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
